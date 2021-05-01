@@ -1,0 +1,19 @@
+{
+  "name": "tourism",
+  "version": "1.0.0",
+  "description": "this is my project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panini-git/tourism.git"
+  },
+  "author": "prashant",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/panini-git/tourism/issues"
+  },
+  "homepage": "https://github.com/panini-git/tourism#readme"
+}

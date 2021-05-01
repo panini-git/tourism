@@ -1,0 +1,37 @@
+
+#card-tile, #monk-tile, #buddha-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+
+}
+#card-tile:hover, #monk-tile:hover, #buddha-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#card-tile {
+  background: url('leh.jpg') no-repeat;
+  background-position: center;
+}
+#monk-tile {
+  background: url('monk.webp') no-repeat;
+  background-position: center;
+}
+#buddha-tile {
+  background: url('buddha.webp') no-repeat;
+  background-position: center;
+}
+#card-tile span, #monk-tile span, #buddha-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
